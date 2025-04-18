@@ -1,0 +1,25 @@
+<svg viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- 3D Basket Icon -->
+  <g transform="translate(0,0)">
+    <!-- Basket base (front) -->
+    <path d="M15 30 L35 60 H75 L95 30 Z" fill="#1E88E5"/>
+
+    <!-- Basket side (shadow) -->
+    <path d="M75 60 L95 30 L100 35 L80 65 Z" fill="#1565C0"/>
+
+    <!-- Basket inner (depth) -->
+    <path d="M35 60 L80 65 L100 35 L95 30 L75 60 Z" fill="#42A5F5"/>
+
+    <!-- Handle -->
+    <path d="M40 30 C45 5, 65 5, 70 30" stroke="#1E88E5" stroke-width="5" fill="none"/>
+
+    <!-- Speed lines -->
+    <line x1="0" y1="40" x2="15" y2="40" stroke="#1E88E5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="0" y1="50" x2="15" y2="50" stroke="#1E88E5" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text -->
+  <text x="120" y="65" font-family="Segoe UI, sans-serif" font-size="32" fill="#333">
+    <tspan fill="#1E88E5" font-weight="bold">Quick</tspan><tspan font-weight="300">Basket</tspan>
+  </text>
+</svg>
