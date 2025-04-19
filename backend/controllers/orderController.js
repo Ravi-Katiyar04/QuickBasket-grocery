@@ -110,8 +110,6 @@ export const getUserOrders = async (req, res) => {
         const { userId } = req;
         const orders = await Order.find({ userId, $or: [{ paymentType: "COD" }, { isPaid: "true" }] }).populate("items.product").populate("address").sort({ createdAt: -1 });
 
-        console.log("User orders:", orders);
-
         res.json({success: true, orders: orders});
     } catch (error) {
         console.error("Error fetching orders:", error.message);
