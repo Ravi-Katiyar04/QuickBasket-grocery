@@ -23,6 +23,7 @@ await connectCloudinary(); // Connect to Cloudinary
 
 const allowedOrigins = [
     'http://localhost:5173', // React frontend
+    'https://quickbasket-grocery-by-ravikatiyar.onrender.com' // Render frontend
 ];
 
 app.post('/stripe', express.raw({ type: 'application/json' }), stripeWebhook); // Stripe webhook endpoint
