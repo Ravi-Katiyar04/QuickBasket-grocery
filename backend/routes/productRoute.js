@@ -2,7 +2,7 @@ import express from "express";
 import {upload} from "../configs/multer.js"; // Import the multer middleware for file uploads
 import authSeller from "../middlewares/authSeller.js"; // Import the authentication middleware for sellers
 const productRouter = express.Router();
-import { addProduct, productList, productById, changeStock} from "../controllers/ProductController.js";
+import { addProduct, productList, productById, changeStock} from "../controllers/productController.js";
 
 
 productRouter.post("/add", upload.array(["images"]), authSeller, addProduct); // Create a new product

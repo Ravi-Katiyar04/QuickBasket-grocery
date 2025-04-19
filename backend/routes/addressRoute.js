@@ -1,7 +1,7 @@
 import express from 'express';
 
 const addressRouter = express.Router();
-import { addAddress, getAddress } from '../controllers/AddressController.js'; // Import the address controller functions
+import { addAddress, getAddress } from '../controllers/addressController.js'; // Import the address controller functions
 import authUser from '../middlewares/authUser.js'; // Import the authentication middleware
 
 
