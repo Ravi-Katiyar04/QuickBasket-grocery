@@ -86,9 +86,9 @@ const Cart = () => {
     }, [user]);
 
     return products.length > 0 && cartItems ?(
-        <div className="flex flex-col md:flex-row py-16 max-w-6xl w-full px-6 mx-auto">
+        <div className="flex flex-col md:flex-row md:py-16 py-6 max-w-6xl w-full  mx-auto">
             <div className='flex-1 max-w-4xl'>
-                <h1 className="text-3xl font-medium mb-6">
+                <h1 className="text-2xl md:text-3xl font-medium mb-6">
                     Shopping Cart <span className="text-sm text-indigo-500">{getCartCount()} Items</span>
                 </h1>
 
