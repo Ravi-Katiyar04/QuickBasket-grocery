@@ -3,7 +3,7 @@ import express from 'express';
 import cors from 'cors'
 import connectDB from './configs/db.js';
 import 'dotenv/config';// Load environment variables from .env file
-import userRouter from './routes/userRoute.js'; // Import the user router
+ // Import the user router
 import connectCloudinary from './configs/cloudinary.js'; // Import the Cloudinary configuration
 import sellerRouter from './routes/sellerRoute.js'; // Import the seller router
 import productRouter from './routes/productRoute.js'; // Import the product router
