@@ -10,6 +10,8 @@ import productRouter from './routes/productRoute.js'; // Import the product rout
 import cartRouter from './routes/cartRoute.js'; // Import the cart router
 import addressRouter from './routes/addressRoute.js'; // Import the address router
 import orderRouter from './routes/orderRoute.js'; // Import the order router
+import { stripeWebhook } from './controllers/orderController.js';
+
 
 
 
@@ -23,6 +25,7 @@ const allowedOrigins = [
     'http://localhost:5173', // React frontend
 ];
 
+app.post('/stripe', express.raw({ type: 'application/json' }), stripeWebhook); // Stripe webhook endpoint
 
 app.use(express.json()); // Parse JSON request bodies
 app.use(cookieParser());
