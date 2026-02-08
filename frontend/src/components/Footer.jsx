@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
                 <div>
                     <img className="h-12" src={assets.logo} alt="Logo" />
-                    <p className="max-w-[410px] mt-6">Our mission is to make grocery shopping easier, faster, and more affordable. We source fresh and quality products, ensuring every order meets the highest standards of hygiene and trust.</p>
+                    <p className="max-w-[410px] mt-6">Our mission is to simplify your home-building journey. By offering a curated selection of fresh designs and sturdy materials, we ensure your dream space is built on a foundation of quality and elegance.</p>
                 </div>
                 <div className="flex flex-wrap justify-between w-full md:w-[45%] gap-5">
                     {footerLinks.map((section, index) => (
@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-                Copyright {new Date().getFullYear()} © QuickBasket.dev All Right Reserved.
+                Copyright {new Date().getFullYear()} © NewKatiyarMarbleTiles.dev All Right Reserved.
             </p>
         </div>
     );

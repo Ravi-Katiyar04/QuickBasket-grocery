@@ -1,25 +1,63 @@
-<svg viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" fill="none">
-  <!-- 3D Basket Icon -->
-  <g transform="translate(0,0)">
-    <!-- Basket base (front) -->
-    <path d="M15 30 L35 60 H75 L95 30 Z" fill="#1E88E5"/>
+<svg width="980" height="300" viewBox="0 0 360 140" xmlns="http://www.w3.org/2000/svg">
 
-    <!-- Basket side (shadow) -->
-    <path d="M75 60 L95 30 L100 35 L80 65 Z" fill="#1565C0"/>
+  <!-- Icon group -->
+  <g transform="translate(10,10)">
 
-    <!-- Basket inner (depth) -->
-    <path d="M35 60 L80 65 L100 35 L95 30 L75 60 Z" fill="#42A5F5"/>
+    <!-- Outer ring -->
+    <circle cx="60" cy="60" r="55" fill="none" stroke="url(#ringGrad)" stroke-width="2.5"/>
 
-    <!-- Handle -->
-    <path d="M40 30 C45 5, 65 5, 70 30" stroke="#1E88E5" stroke-width="5" fill="none"/>
+    <!-- Inner ring -->
+    <circle cx="60" cy="60" r="48" fill="none" stroke="#2F4F4F" stroke-width="1" opacity="0.35"/>
 
-    <!-- Speed lines -->
-    <line x1="0" y1="40" x2="15" y2="40" stroke="#1E88E5" stroke-width="3" stroke-linecap="round"/>
-    <line x1="0" y1="50" x2="15" y2="50" stroke="#1E88E5" stroke-width="2" stroke-linecap="round"/>
+    <!-- Monogram vertical -->
+    <path d="M45 30V90" stroke="#2F4F4F" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- Monogram arrow -->
+    <path d="M85 30L48 60L85 90"
+          stroke="url(#goldGrad)"
+          stroke-width="9"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Decorative accents -->
+    <path d="M72 50L80 42" stroke="#D4AF37" stroke-width="1.5" opacity="0.4"/>
+    <path d="M74 74L82 66" stroke="#D4AF37" stroke-width="1.5" opacity="0.4"/>
+
   </g>
 
-  <!-- Text -->
-  <text x="120" y="65" font-family="Segoe UI, sans-serif" font-size="32" fill="#333">
-    <tspan fill="#1E88E5" font-weight="bold">Quick</tspan><tspan font-weight="300">Basket</tspan>
+  <!-- Text block -->
+  <text x="150"
+        y="60"
+        fill="#2F4F4F"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="34"
+        font-weight="700"
+        letter-spacing="1.5">
+    NEW KATIYAR
   </text>
+
+  <text x="150"
+        y="90"
+        fill="#D4AF37"
+        font-family="Poppins, Montserrat, Arial, sans-serif"
+        font-size="24"
+        font-weight="600"
+        letter-spacing="1.2">
+    MARBLE &amp; TILES
+  </text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF2B0"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#9E7C1F"/>
+    </linearGradient>
+
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2F4F4F"/>
+      <stop offset="100%" stop-color="#1C2E2E"/>
+    </linearGradient>
+  </defs>
+
 </svg>

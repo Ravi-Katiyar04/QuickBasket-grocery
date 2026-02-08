@@ -25,13 +25,11 @@ import main_banner_bg_sm from "./main_banner_bg_sm.png";
 import bottom_banner_image from "./bottom_banner_image.png";
 import bottom_banner_image_sm from "./bottom_banner_image_sm.png";
 import add_address_iamge from "./add_address_image.svg";
-import organic_vegitable_image from "./organic_vegitable_image.png";
-import fresh_fruits_image from "./fresh_fruits_image.png";
-import bottles_image from "./bottles_image.png";
 import maggi_image from "./maggi_image.png";
-import dairy_product_image from "./dairy_product_image.png";
-import bakery_image from "./bakery_image.png";
-import grain_image from "./grain_image.png";
+import makrana_image_1 from "./makrana_image_1.png";
+import makrana_image_2 from "./makrana_image_2.png";
+import makrana_image_3 from "./makrana_image_3.png";
+import makrana_image_4 from "./makrana_image_4.png";
 import potato_image_1 from "./potato_image_1.png";
 import potato_image_2 from "./potato_image_2.png";
 import potato_image_3 from "./potato_image_3.png";
@@ -70,6 +68,14 @@ import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
 
+import marble_slabs_image from "./marble_slabs_image.png";
+import granite_blocks_image from "./granite_blocks_image.png";
+import verified_tiles_image from "./verified_tiles_images.png";
+import ceramic_tiles_image from "./Ceramic_Tiles_image.png"
+import natural_stone_image from "./natural_stones_image.png";
+import elevation_tiles_image from "./elevation_tiles_image.png";
+import Grout_fillers_image from "./grout_fillers_image.png";
+
 export const assets = {
   logo,
   search_icon,
@@ -102,45 +108,45 @@ export const assets = {
 
 export const categories = [
   {
-    text: "Organic veggies",
-    path: "Vegetables",
-    image: organic_vegitable_image,
+    text: "Marble Slabs",
+    path: "Marble",
+    image: marble_slabs_image,
     bgColor: "#FEF6DA",
   },
   {
-    text: "Fresh Fruits",
-    path: "Fruits",
-    image: fresh_fruits_image,
+    text: "Granite Blocks",
+    path: "Granite",
+    image: granite_blocks_image,
     bgColor: "#FEE0E0",
   },
   {
-    text: "Cold Drinks",
-    path: "Drinks",
-    image: bottles_image,
+    text: "Vitrified Tiles",
+    path: "Vitrified_Tiles",
+    image: verified_tiles_image,
     bgColor: "#F0F5DE",
   },
   {
-    text: "Instant Food",
-    path: "Instant",
-    image: maggi_image,
+    text: "Ceramic Tiles",
+    path: "Ceramic_Tiles",
+    image: ceramic_tiles_image,
     bgColor: "#E1F5EC",
   },
   {
-    text: "Dairy Products",
-    path: "Dairy",
-    image: dairy_product_image,
+    text: "Natural Stone",
+    path: "Natural_Stone",
+    image: natural_stone_image,
     bgColor: "#FEE6CD",
   },
   {
-    text: "Bakery & Breads",
-    path: "Bakery",
-    image: bakery_image,
+    text: "Elevation Tiles",
+    path: "Elevation_Tiles",
+    image: elevation_tiles_image,
     bgColor: "#E0F6FE",
   },
   {
-    text: "Grains & Cereals",
-    path: "Grains",
-    image: grain_image,
+    text: "Grout & Fillers",
+    path: "Grout_Fillers",
+    image: Grout_fillers_image,
     bgColor: "#F1E3F9",
   },
 ];
@@ -181,17 +187,17 @@ export const features = [
   {
     icon: delivery_truck_icon,
     title: "Fastest Delivery",
-    description: "Groceries delivered in under 30 minutes.",
+    description: "Quick and reliable supply for projects of any scale.",
   },
   {
     icon: leaf_icon,
-    title: "Freshness Guaranteed",
-    description: "Fresh produce straight from the source.",
+    title: "Premium Quality",
+    description: "Carefully selected marble and tiles with guaranteed finish.",
   },
   {
     icon: coin_icon,
-    title: "Affordable Prices",
-    description: "Quality groceries at unbeatable prices.",
+    title: "Best Value Pricing",
+    description: "Top-grade materials at competitive market rates.",
   },
   {
     icon: trust_icon,
@@ -204,11 +210,11 @@ export const dummyProducts = [
   // Vegetables
   {
     _id: "gd46g23h",
-    name: "Potato 500g",
+    name: "Makrana Marble",
     category: "Vegetables",
     price: 25,
     offerPrice: 20,
-    image: [potato_image_1, potato_image_2, potato_image_3, potato_image_4],
+    image: [makrana_image_1, makrana_image_2, makrana_image_3, makrana_image_4],
     description: [
       "Fresh and organic",
       "Rich in carbohydrates",
@@ -220,7 +226,7 @@ export const dummyProducts = [
   },
   {
     _id: "gd47g34h",
-    name: "Tomato 1 kg",
+    name: "Ambaji White",
     category: "Vegetables",
     price: 40,
     offerPrice: 35,
@@ -237,7 +243,7 @@ export const dummyProducts = [
   },
   {
     _id: "gd48g45h",
-    name: "Carrot 500g",
+    name: "Rainforest Marble",
     category: "Vegetables",
     price: 30,
     offerPrice: 28,
@@ -253,7 +259,7 @@ export const dummyProducts = [
   },
   {
     _id: "gd49g56h",
-    name: "Spinach 500g",
+    name: "Dharmeta White",
     category: "Vegetables",
     price: 18,
     offerPrice: 15,
@@ -269,7 +275,7 @@ export const dummyProducts = [
   },
   {
     _id: "gd50g67h",
-    name: "Onion 500g",
+    name: "Crema Marfil",
     category: "Vegetables",
     price: 22,
     offerPrice: 19,
