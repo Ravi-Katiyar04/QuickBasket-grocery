@@ -23,8 +23,7 @@ await connectCloudinary(); // Connect to Cloudinary
 
 const allowedOrigins = [
     'http://localhost:5173', // React frontend
-    'https://newkatiyarmarbletiles.onrender.com', // Deployed frontend
-    
+    'https://newkatiyarmarbletiles.onrender.com',
 ];
 
 app.post('/stripe', express.raw({ type: 'application/json' }), stripeWebhook); // Stripe webhook endpoint
