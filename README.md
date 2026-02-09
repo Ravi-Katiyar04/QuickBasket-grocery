@@ -1,6 +1,9 @@
-# QuickBasket Grocery
+## Marble & Tiles Delivery Web App
 
-QuickBasket Grocery is a web application for managing grocery shopping. This README provides setup instructions for both the frontend and backend, as well as a list of API endpoints with their routes and example responses.
+Marble & Tiles Delivery Web App is an e-commerce platform for browsing, managing, and ordering tiles and marble products online. The application allows users to explore product catalogs, manage inventory, and handle orders through a modern full-stack web interface.
+
+This README provides setup instructions for both the frontend and backend, along with documentation of API endpoints, routes, and example responses.
+
 
 ---
 
